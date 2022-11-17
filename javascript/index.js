@@ -76,7 +76,10 @@ function updateCity(event) {
             <div class="time">${cityTime.format(
               "HH:mm:ss [<small>]a[</small>]"
             )}</div>
-          </div>`;
+          </div>
+          <hr />
+          <h2></h2>
+          <a href="index.html" class="timemachine">Start time machine</a>`;
   }
   updateTime();
   setInterval(updateTime, 1000);
