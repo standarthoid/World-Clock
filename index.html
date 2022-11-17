@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Miriam Hanke</title>
   </head>
   <body>
@@ -21,26 +22,26 @@
         <option value="">Honolulu</option>
       </select>
       <div class="content">
-        <div class="city">
+        <div class="city" id="los-angeles">
           <div>
             <h2>Los Angeles 🇺🇸</h2>
             <div class="date">November 17th 2022</div>
           </div>
-          <div class="time">07:21:00 AM</div>
+          <div class="time">07:21:00 <small> AM </small></div>
         </div>
-        <div class="city">
+        <div class="city" id="sao-paulo">
           <div>
             <h2>São Paulo 🇧🇷</h2>
             <div class="date">November 17th 2022</div>
           </div>
-          <div class="time">07:21:00 AM</div>
+          <div class="time">07:21:00 <small> AM </small></div>
         </div>
-        <div class="city">
+        <div class="city" id="lisbon">
           <div>
             <h2>Lisbon 🇵🇹</h2>
             <div class="date">November 17th 2022</div>
           </div>
-          <div class="time">07:21:00 AM</div>
+          <div class="time">07:21:00 <small> AM </small></div>
         </div>
       </div>
     </div>
